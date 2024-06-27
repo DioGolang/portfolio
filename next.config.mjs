@@ -1,10 +1,19 @@
 import {withSentryConfig} from '@sentry/nextjs';
 /** @type {import('next').NextConfig} */
 const nextConfig = {};
+const dotenv = require('dotenv');
+
+const envConfig = dotenv.config({
+    path: './.env.sentry-build-plugin',
+}).parsed;
+
+module.exports = {
+    env: {
+        SENTRY_DSN: envConfig.SENTRY_DSN,
+    },
+};
 
 export default withSentryConfig(nextConfig, {
-// For all available options, see:
-// https://github.com/getsentry/sentry-webpack-plugin#options
 
 org: "local-web-imoveis",
 project: "javascript-nextjs",
