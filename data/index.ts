@@ -29,7 +29,7 @@ export const gridItems = [
     {
         id: 3,
         title: "My tech stack",
-        description: "Eu constantemente tento melhorar",
+        description: "Constantemente em evolução",
         className: "lg:col-span-2 md:col-span-3 md:row-span-2",
         imgClassName: "",
         titleClassName: "justify-center",
@@ -49,7 +49,7 @@ export const gridItems = [
 
     {
         id: 5,
-        title: "cursando engenharia da computação",
+        title: "Cursando ngenharia da Computação e Tecnologia da informação ",
         description: "UNIVESP",
         className: "md:col-span-3 md:row-span-2",
         imgClassName: "absolute right-0 bottom-0 md:w-96 w-60",
@@ -72,11 +72,11 @@ export const gridItems = [
 export const projects = [
     {
         id: 1,
-        title: "3D Solar System Planets to Explore",
-        des: "Explore the wonders of our solar system with this captivating 3D simulation of the planets using Three.js.",
+        title: "Sistema de Venda de Ingressos",
+        des: "Microsserviços de parceiro de ingressos com Nestjs, frontend com Nextjs e infraestrutura com GO.",
         img: "/p1.svg",
-        iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg", "/fm.svg"],
-        link: "https://github.com/adrianhajdin?tab=repositories",
+        iconLists: ["/golang.svg", "/ts.svg", "/nestjs.svg", "/next.svg", "/mysql.svg", "/reactjs.svg", "/tail.svg", "/dock.svg"],
+        link: process.env.GITHUB + "/dev-ticket",
     },
     {
         id: 2,
@@ -84,7 +84,7 @@ export const projects = [
         des: "Simplify your video conferencing experience with Yoom. Seamlessly connect with colleagues and friends.",
         img: "/p2.svg",
         iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/stream.svg", "/c.svg"],
-        link: "https://github.com/adrianhajdin/zoom-clone",
+        link: "https://github.com/devsvasconcelos/",
     },
     {
         id: 3,
@@ -92,7 +92,7 @@ export const projects = [
         des: "A REAL Software-as-a-Service app with AI features and a payments and credits system using the latest tech stack.",
         img: "/p3.svg",
         iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg", "/c.svg"],
-        link: "https://github.com/adrianhajdin/ai_saas_app",
+        link: "https://github.com/devsvasconcelos/",
     },
     {
         id: 4,
@@ -100,7 +100,7 @@ export const projects = [
         des: "Recreated the Apple iPhone 15 Pro website, combining GSAP animations and Three.js 3D effects..",
         img: "/p4.svg",
         iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/three.svg", "/gsap.svg"],
-        link: "https://github.com/adrianhajdin/iphone",
+        link: "https://github.com/devsvasconcelos/",
     },
 ];
 
@@ -225,7 +225,7 @@ export const socialMedia = [
     {
         id: 2,
         img: "/whatsapp.svg",
-        url: "",
+        url: "https://api.whatsapp.com/send?phone=5511961508823",
     },
     {
         id: 3,
