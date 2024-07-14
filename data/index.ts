@@ -8,7 +8,7 @@ export const navItems = [
 export const gridItems = [
     {
         id: 1,
-        title: "Priorizo a colaboração do cliente, promovendo a comunicação aberta",
+        title: "I prioritize customer collaboration, promoting open communication",
         description: "",
         className: "lg:col-span-3 md:col-span-6 md:row-span-4 lg:min-h-[60vh]",
         imgClassName: "w-full h-full",
@@ -18,7 +18,7 @@ export const gridItems = [
     },
     {
         id: 2,
-        title: "Sou muito flexível com comunicações de fuso horário",
+        title: "I am very flexible with time zone communications",
         description: "",
         className: "lg:col-span-2 md:col-span-3 md:row-span-2",
         imgClassName: "",
@@ -29,7 +29,7 @@ export const gridItems = [
     {
         id: 3,
         title: "My tech stack",
-        description: "Constantemente em evolução",
+        description: "Constantly evolving",
         className: "lg:col-span-2 md:col-span-3 md:row-span-2",
         imgClassName: "",
         titleClassName: "justify-center",
@@ -38,7 +38,7 @@ export const gridItems = [
     },
     {
         id: 4,
-        title: "Entusiasta de tecnologia e apaixonado por desenvolvimento.",
+        title: "Technology enthusiast and passionate about development.",
         description: "",
         className: "lg:col-span-2 md:col-span-3 md:row-span-1",
         imgClassName: "",
@@ -49,7 +49,7 @@ export const gridItems = [
 
     {
         id: 5,
-        title: "Cursando ngenharia da Computação e Tecnologia da informação ",
+        title: "Studying Computer Engineering and Information Technology",
         description: "UNIVESP",
         className: "md:col-span-3 md:row-span-2",
         imgClassName: "absolute right-0 bottom-0 md:w-96 w-60",
@@ -59,7 +59,7 @@ export const gridItems = [
     },
     {
         id: 6,
-        title: "Quer iniciar um projeto juntos?",
+        title: "Do you want to start a project together?",
         description: "",
         className: "lg:col-span-2 md:col-span-3 md:row-span-1",
         imgClassName: "",
@@ -107,45 +107,27 @@ export const projects = [
 export const testimonials = [
     {
         quote:
-            "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-        name: "Michael Johnson",
-        title: "Director of AlphaStream Technologies",
+            "Trabalhar com Diogo foi uma experiência transformadora para meu negócio imobiliário. Ele criou um site incrivelmente intuitivo e visualmente atraente que facilitou para nossos clientes encontrarem e visualizarem propriedades. As ferramentas de CRM e a inteligência para campanhas no Facebook aumentaram significativamente nossa eficiência e alcance. Recomendo seus serviços a qualquer agência imobiliária que queira se destacar no mercado..",
+        name: "Moacir - Gerente de Imobiliária",
+        title: "Site Imobiliário",
         img: "/profile.svg",
         width: 50,
         height:50
     },
     {
         quote:
-            "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-        name: "Michael Johnson",
-        title: "Director of AlphaStream Technologies",
+            "A criação do nosso site institucional com Diogo foi uma das melhores decisões que tomamos. Ele compreendeu perfeitamente nossa visão e valores, traduzindo isso em um site funcional e esteticamente agradável. A plataforma é fácil de usar e gerenciar, o que tem facilitado nossa comunicação com clientes e parceiros. Agradecemos profundamente pelo trabalho excepcional e profissionalismo..",
+        name: "Jorge - CEO",
+        title: "Site Institucional",
         img: "/profile.svg",
         width: 50,
         height:50
     },
     {
         quote:
-            "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-        name: "Michael Johnson",
-        title: "Director of AlphaStream Technologies",
-        img: "/profile.svg",
-        width: 50,
-        height:50
-    },
-    {
-        quote:
-            "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-        name: "Michael Johnson",
-        title: "Director of AlphaStream Technologies",
-        img: "/profile.svg",
-        width: 50,
-        height:50
-    },
-    {
-        quote:
-            "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-        name: "Michael Johnson",
-        title: "Director of AlphaStream Technologies",
+            "Eu queria um site pessoal que refletisse minha personalidade e meu trabalho, e superou todas as minhas expectativas. Ele foi paciente e atento às minhas necessidades, resultando em um site elegante e profissional que realmente captura quem eu sou. A navegação é fluida, e recebi inúmeros elogios pelo design. Não poderia estar mais feliz com o resultado!",
+        name: "Luana - Corretora de Imóveis",
+        title: "Site Pessoal",
         img: "/profile.svg",
         width: 50,
         height:50
@@ -189,28 +171,28 @@ export const workExperience = [
     {
         id: 1,
         title: "Full-Stack developer",
-        desc: "Assisted in the development of a web-based platform using React.js, enhancing interactivity.",
+        desc: "Complete web applications, from interactive front-end with React and TypeScript to robust APIs with Python, NodeJs, PHP, Go and databases",
         className: "md:col-span-2",
         thumbnail: "/exp1.svg",
     },
     {
         id: 2,
         title: "Data Science",
-        desc: "Designed and developed mobile app for both iOS & Android platforms using React Native.",
+        desc: "Use of Python and its main libraries and packages.",
         className: "md:col-span-2",
         thumbnail: "/exp2.svg",
     },
     {
         id: 3,
-        title: "Freelance App Dev Project",
-        desc: "Led the dev of a mobile app for a client, from initial concept to deployment on app stores.",
+        title: "Good Practices: ",
+        desc: "Adoption of OOP principles and logical programming for efficient and maintainable code.",
         className: "md:col-span-2",
         thumbnail: "/exp3.svg",
     },
     {
         id: 4,
-        title: "Lead Frontend Developer",
-        desc: "Developed and maintained user-facing features using modern frontend technologies.",
+        title: "Main Soft Skills",
+        desc: "Effective Communication, Teamwork, Problem-Solving, Adaptability, Attention to Detail, Responsibility and Reliability, Critical Thinking, Empathy and Emotional Intelligence, Mentoring and Teaching",
         className: "md:col-span-2",
         thumbnail: "/exp4.svg",
     },
@@ -220,7 +202,7 @@ export const socialMedia = [
     {
         id: 1,
         img: "/git.svg",
-        url: "https://github.com/devsvasconcelos",
+        url: "https://github.com/diogolang",
     },
     {
         id: 2,

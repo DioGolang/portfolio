@@ -7,8 +7,8 @@ export function Clients() {
     return(
         <section className='py-20' id='testimonials'>
             <h1 className="heading">
-                palavras gentis de {" "}
-                <span className='text-purple'>clientes satisfeitos</span>
+            kind words from {" "}
+                <span className='text-purple'>satisfied customers</span>
             </h1>
             <div className='h-[50vh] md:h-[30rem] rounded-md flex flex-col antialiased  items-center justify-center relative overflow-hidden'>
                     <InfiniteMovingCards items={testimonials} direction='right' speed='slow' />

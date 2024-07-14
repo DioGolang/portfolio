@@ -36,7 +36,7 @@ export function Hero(){
                     />
 
                     <p className="text-center md:tracking-wider mb-4 text-sm md:text-lg lg:text-2xl">
-                        Hi! I&apos;m Diogo, a Developer and data scientist in training!.
+                        Hi! I&apos;m Diogo, a Developer and data scientist!.
                     </p>
 
                     <a href="#about">
