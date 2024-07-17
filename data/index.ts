@@ -138,7 +138,7 @@ export const companies = [
     {
         id: 1,
         name: "cloudinary",
-        img: "/cloud.svg",
+        img: "/nestjs.svg",
         nameImg: "/cloudName.svg",
     },
     {
@@ -164,6 +164,75 @@ export const companies = [
         name: "docker.",
         img: "/dock.svg",
         nameImg: "/dockerName.svg",
+    },
+];
+
+export const stack = [
+    {
+        id: 1,
+        name: "nodejs",
+        img: "/nodejs.svg",
+        nameImg: "",
+    },
+    {
+        id: 2,
+        name: "python",
+        img: "/python.svg",
+        nameImg: "",
+    },
+    {
+        id: 3,
+        name: "golang",
+        img: "/golang.svg",
+        nameImg: "",
+    },
+    {
+        id: 4,
+        name: "php",
+        img: "/php.svg",
+        nameImg: "",
+    },
+    {
+        id: 5,
+        name: "nestjs",
+        img: "/nestjs.svg",
+        nameImg: "",
+    },
+    {
+        id: 6,
+        name: "nextjs.",
+        img: "/next.svg",
+        nameImg: "",
+    },
+    {
+        id: 7,
+        name: "laravel.",
+        img: "/laravel.svg",
+        nameImg: "",
+    },
+    {
+        id: 8,
+        name: "reactjs.",
+        img: "/reactjs.svg",
+        nameImg: "",
+    },
+    {
+        id: 9,
+        name: "jupyter.",
+        img: "/jupyter.svg",
+        nameImg: "/",
+    },
+    {
+        id: 10,
+        name: "docker.",
+        img: "/dock.svg",
+        nameImg: "/dockerName.svg",
+    },
+    {
+        id: 11,
+        name: "git.",
+        img: "/git.svg",
+        nameImg: "",
     },
 ];
 
