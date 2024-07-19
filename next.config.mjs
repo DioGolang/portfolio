@@ -1,13 +1,13 @@
 import { withSentryConfig } from '@sentry/nextjs';
 import dotenv from 'dotenv';
 
+// Loading additional environment variables if necessary
 dotenv.config({ path: './.env' });
-
 dotenv.config({ path: './.env.sentry-build-plugin' });
 
-/** @type {import('next').NextConfig} */
 const nextConfig = {
-    output: 'export',
+    basePath: '/portfolio',
+    assetPrefix: '/portfolio/',
     distDir: 'out',
     env: {
         SENTRY_DSN: process.env.SENTRY_DSN,
