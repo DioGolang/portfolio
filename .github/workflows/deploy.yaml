@@ -24,8 +24,14 @@ jobs:
     - name: Build
       run: npm run build
 
+    - name: Debug Information
+      run: |
+        git status
+        git log -1
+
     - name: Deploy
       uses: peaceiris/actions-gh-pages@v3
       with:
         github_token: ${{ secrets.GH_TOKEN }}
         publish_dir: ./out
+
