@@ -24,7 +24,7 @@ jobs:
     - name: Build
       run: npm run build
 
-    - name: Debug Information 2
+    - name: Debug Information
       run: |
         git status
         git log -1
